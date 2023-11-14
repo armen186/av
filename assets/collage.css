@@ -6,7 +6,9 @@
 .collage {
   display: grid;
 }
-/*1*/
+/*5*/
+
+
 
 .collage__item > * {
   width: 100%;
