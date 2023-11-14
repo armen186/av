@@ -6,13 +6,16 @@
 .collage {
   display: grid;
 }
-/*5*/
+
 
 
 
 .collage__item > * {
   width: 100%;
 }
+
+
+
 
 .collage__item .card__content {
   flex-grow: initial;
