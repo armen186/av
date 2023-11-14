@@ -6,6 +6,7 @@
 .collage {
   display: grid;
 }
+/*1*/
 
 .collage__item > * {
   width: 100%;
