@@ -3515,3 +3515,10 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+
+/* change style */
+
+.header-wrapper.color-background-1.gradient.header-wrapper--border-bottom {
+  background: #ffee90;
+}
