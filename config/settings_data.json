@@ -139,7 +139,7 @@
         "settings": {
           "background": "#e4e4e4",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#000000",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
@@ -181,7 +181,7 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#1e1f20",
           "background_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
           "text": "#ffffff",
           "button": "#ffffff",
