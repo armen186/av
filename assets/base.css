@@ -3557,6 +3557,18 @@ border-bottom: 3px solid #ffb70b;
   width: 70px;
   height: 70px;
 }
+@media screen and (max-width: 700px) {
+  .pos-bee-right, .pos-bee-left{
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .list-menu__item {
+    font-size: 15px !important;
+    margin: 0 ;
+    border: none ;
+  }
+}
 
 
 
