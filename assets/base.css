@@ -3561,6 +3561,9 @@ border-bottom: 3px solid #ffb70b;
   .pos-bee-right, .pos-bee-left{
     display: none;
   }
+  .slider-mobile-gutter {
+    margin-top: 0px !important;
+  }
 }
 @media screen and (max-width: 1290px) {
   .list-menu__item {
@@ -3569,12 +3572,19 @@ border-bottom: 3px solid #ffb70b;
     border-top: 1px solid #ffb70b;
 border-bottom: 1px solid #ffb70b;
   }
+
 }
 .list-menu__item:hover{
   border-top: 1px solid #ffb70b;
   border-bottom: 1px solid #ffb70b;
   color: #ffb70b;
 }
+
+.multicolumn-card__info {
+  background:#ffcf1438;
+  box-shadow: 1px 18px 51px 1px rgba(0,0,0,0.41);
+}
+
 
 
 
