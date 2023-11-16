@@ -29,7 +29,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/banochki-lozhka-miod-soty.jpg",
         "image_2": "shopify:\/\/shop_images\/med-med-banochki-sladkoe-lozhka.jpg",
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 30,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
