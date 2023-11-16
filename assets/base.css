@@ -3556,6 +3556,7 @@ border-bottom: 3px solid #ffb70b;
 .pos-bee-right > img {
   width: 70px;
   height: 70px;
+
 }
 @media screen and (max-width: 1000px) {
   .pos-bee-right, .pos-bee-left{
@@ -3581,8 +3582,14 @@ border-bottom: 1px solid #ffb70b;
 }
 
 .multicolumn-card__info {
-  background:#ffcf1438;
+  background:#ffb70b;
   box-shadow: 1px 18px 51px 1px rgba(0,0,0,0.41);
+  margin-top: -55px;
+  min-height: 250px;
+}
+.inline-richtext {
+  color: cornsilk;
+  font-weight: bold;
 }
 
 
