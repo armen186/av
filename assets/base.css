@@ -2480,7 +2480,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header__heading-logo {
-  height: auto;
+  height: 100px;
   max-width: 100%;
 }
 
@@ -3567,7 +3567,7 @@ border-bottom: 3px solid #ffb70b;
     font-size: 15px !important;
     margin: 0 ;
     border: none ;
-    
+
   }
 }
 
