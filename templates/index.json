@@ -6,8 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "<strong>Sweeten your life with the golden goodness of honey.<\/strong>",
+            "heading_size": "h2"
           }
         },
         "button": {
@@ -34,7 +34,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
+        "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
