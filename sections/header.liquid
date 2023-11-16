@@ -31,11 +31,11 @@
     margin-left: -1.2rem;
   }
 
-  {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
+  {% comment %} {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
       width: 75%;
     }
-  {%- endif -%}
+  {%- endif -%} {% endcomment %}
 
   {%- if section.settings.menu_type_desktop != "drawer" -%}
     @media screen and (min-width: 990px) {
@@ -165,7 +165,7 @@
       endif
     -%}
 
-    {%- if section.settings.logo_position != 'middle-center' -%}
+    {% comment %} {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
       {%- endif -%}
@@ -193,7 +193,7 @@
       {%- if request.page_type == 'index' -%}
         </h1>
       {%- endif -%}
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
 
     {%- liquid
       if section.settings.menu != blank
