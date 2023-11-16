@@ -3557,18 +3557,24 @@ border-bottom: 3px solid #ffb70b;
   width: 70px;
   height: 70px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .pos-bee-right, .pos-bee-left{
     display: none;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1290px) {
   .list-menu__item {
     font-size: 15px !important;
-    margin: 0 ;
-    border: none ;
-
+    margin: 2px ;
+    border-top: 1px solid #ffb70b;
+border-bottom: 1px solid #ffb70b;
   }
+}
+
+.list-menu__item:hover{
+  border-top: 1px solid #ffb70b;
+  border-bottom: 1px solid #ffb70b;
+  color: #ffb70b;
 }
 
 
