@@ -4,9 +4,7 @@
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
 }
-.list-menu__item {
-  color: rgb(7, 241, 97)!important;
-}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
@@ -3521,5 +3519,21 @@ details-disclosure > details {
 
 
 .header-wrapper.color-background-1.gradient.header-wrapper--border-bottom {
-  background: #006f64;
+  background: #f1f7f5;
 }
+
+.list-menu__item {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 18px;
+  margin: 5px;
+  transition: 0.3s ease;
+border-top: 3px solid #ffb70b;
+border-bottom: 3px solid #ffb70b;
+}
+#HeaderMenu-special-honey{
+  font-size: 25px;
+  padding-top: 0;
+  color: red;
+  border: none;
+}
+
