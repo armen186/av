@@ -3530,7 +3530,7 @@ details-disclosure > details {
 border-top: 3px solid #ffb70b;
 border-bottom: 3px solid #ffb70b;
 }
-#HeaderMenu-special-honey{
+#HeaderMenu-hi-honey{
   font-size: 25px;
   padding-top: 0;
   color: #66645b;;
@@ -3541,13 +3541,13 @@ border-bottom: 3px solid #ffb70b;
   position: fixed;
   left:0;
   z-index: 999;
-  top:100px;
+  top:50px;
 }
 .pos-bee-right {
   position: fixed;
   right:0;
   z-index: 999;
-  top:100px;
+  top:50px;
 }
 .pos-bee-left > img {
   width: 70px;
