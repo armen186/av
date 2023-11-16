@@ -3537,5 +3537,27 @@ border-bottom: 3px solid #ffb70b;
   border: none;
 }
 
+.pos-bee-left {
+  position: fixed;
+  left:0;
+  z-index: 999;
+  top:100px;
+}
+.pos-bee-right {
+  position: fixed;
+  right:0;
+  z-index: 999;
+  top:100px;
+}
+.pos-bee-left > img {
+  width: 70px;
+  height: 70px;
+}
+.pos-bee-right > img {
+  width: 70px;
+  height: 70px;
+}
+
+
 
 
