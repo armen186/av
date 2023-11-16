@@ -1,3 +1,5 @@
+
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
@@ -3530,11 +3532,17 @@ details-disclosure > details {
 border-top: 3px solid #ffb70b;
 border-bottom: 3px solid #ffb70b;
 }
+
 #HeaderMenu-hi-honey{
   font-size: 25px;
   padding-top: 0;
-  color: #66645b;;
   border: none;
+  background-color: #ffffff;
+  text-shadow: #969696 1px 3px 0, #aba8a8 2px 8px 5px;
+  font-family: 'Pacifico', cursive;
+  color: #ffb70b;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .pos-bee-left {
