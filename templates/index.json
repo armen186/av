@@ -94,6 +94,82 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "2c3e51f5-305b-4da0-9cac-02067840427b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14785934622783__2c3e51f5-305b-4da0-9cac-02067840427b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--14785934622783__2c3e51f5-305b-4da0-9cac-02067840427b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Who we are and how to contact us",
+            "text_style": "body"
+          }
+        },
+        "template--14785934622783__2c3e51f5-305b-4da0-9cac-02067840427b-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Contact",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "About Us",
+            "button_link_2": "shopify:\/\/pages\/about",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14785934622783__2c3e51f5-305b-4da0-9cac-02067840427b-heading-1",
+        "template--14785934622783__2c3e51f5-305b-4da0-9cac-02067840427b-text-1",
+        "template--14785934622783__2c3e51f5-305b-4da0-9cac-02067840427b-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pine-honey-500gr.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "d652761b-304f-4204-a517-f4edb040667d": {
       "type": "image-with-text",
       "blocks": {
@@ -139,40 +215,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "ec3e28e9-b869-4583-978f-a52514cd7d56",
-    "d652761b-304f-4204-a517-f4edb040667d",
-    "featured_collection"
+    "featured_collection",
+    "2c3e51f5-305b-4da0-9cac-02067840427b",
+    "d652761b-304f-4204-a517-f4edb040667d"
   ]
 }
