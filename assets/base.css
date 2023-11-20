@@ -3578,6 +3578,9 @@ border-bottom: 3px solid #ffb70b;
   .multicolumn-card__info {
     margin-top: 0px !important;
   }
+  .header__icons {
+    top: 0px;
+  }
 }
 @media screen and (max-width: 1290px) {
   .list-menu__item {
