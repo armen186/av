@@ -401,6 +401,8 @@
 
 .banner__box > *:first-child {
   margin-top: 0;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 749px) {
