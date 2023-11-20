@@ -3606,8 +3606,10 @@ border-bottom: 1px solid #ffb70b;
   color: cornsilk;
   font-weight: bold;
 }
+.cart-icon {
 
-
+  background: #fff;
+}
 
 
 
