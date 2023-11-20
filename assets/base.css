@@ -2539,7 +2539,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   padding-right: 0.8rem;
   position: fixed;
   right: 10px;
-  top: 2px;
+  top: 20px;
 }
 
 .header__icons .shopify-app-block {
