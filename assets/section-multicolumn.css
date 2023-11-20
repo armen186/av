@@ -65,8 +65,7 @@
 }
 
 .multicolumn.background-primary .multicolumn-card {
-  background: rgb(var(--color-background))
-    linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
+  border-radius: 18px;
 }
 
 .multicolumn-list h3 {
@@ -133,6 +132,7 @@
 
 .multicolumn-card__info {
   padding: 2.5rem;
+  border-radius: 18px;
 }
 
 .background-none .multicolumn-card__info {
