@@ -2536,10 +2536,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 /* Header icons */
 .header__icons {
-  display: flex;
-  grid-area: icons;
-  justify-self: end;
   padding-right: 0.8rem;
+  position: fixed;
+  right: 0;
+  top: 200px;
 }
 
 .header__icons .shopify-app-block {
@@ -3550,12 +3550,14 @@ border-bottom: 3px solid #ffb70b;
   left:0;
   z-index: 999;
   top:50px;
+  display: none;
 }
 .pos-bee-right {
   position: fixed;
   right:0;
   z-index: 999;
   top:50px;
+  display: none;
 }
 .pos-bee-left > img {
   width: 70px;
@@ -3573,6 +3575,9 @@ border-bottom: 3px solid #ffb70b;
   .slider-mobile-gutter {
     margin-top: 0px !important;
   }
+  .multicolumn-card__info {
+    margin-top: 0px !important;
+  }
 }
 @media screen and (max-width: 1290px) {
   .list-menu__item {
@@ -3581,7 +3586,9 @@ border-bottom: 3px solid #ffb70b;
     border-top: 1px solid #ffb70b;
 border-bottom: 1px solid #ffb70b;
   }
-
+  .multicolumn-card__info {
+    margin-top: 0px !important;
+  }
 }
 .list-menu__item:hover{
   border-top: 1px solid #ffb70b;
