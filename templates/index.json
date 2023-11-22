@@ -124,7 +124,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "accent-2",
+        "section_color_scheme": "inverse",
         "color_scheme": "inverse",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
