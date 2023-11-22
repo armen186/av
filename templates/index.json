@@ -94,6 +94,44 @@
         "padding_bottom": 36
       }
     },
+    "615d67bb-9e88-4095-9f06-b4fe09d6f67c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14785934622783__615d67bb-9e88-4095-9f06-b4fe09d6f67c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Armenian Honey: Nature's Golden Elixir from the Land of Ancient Culture",
+            "heading_size": "h1"
+          }
+        },
+        "template--14785934622783__615d67bb-9e88-4095-9f06-b4fe09d6f67c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introduction:<br\/>Armenia, a country nestled in the heart of the South Caucasus, is not only renowned for its rich history and cultural heritage but also for producing some of the world's finest honey. Armenian honey, often referred to as \"nature's golden elixir,\" is a testament to the country's diverse landscapes, unique flora, and the traditional beekeeping practices that have been passed down through generations.<\/p><p>The Landscape:<br\/>Armenia's geographical diversity plays a crucial role in the production of high-quality honey. The country is characterized by mountainous terrain, lush valleys, and a climate that varies from subtropical to alpine. This diverse landscape provides an ideal environment for a wide range of flowering plants, contributing to the distinct flavors and aromas found in Armenian honey.<\/p><p>Floral Diversity:<br\/>Armenian honey is a true reflection of the country's floral wealth. The bees forage on a myriad of wildflowers, including thyme, sage, lavender, and various fruit blossoms. These diverse floral sources impart a unique and complex flavor profile to the honey, ranging from delicate and floral to robust and herbal.<\/p><p>Traditional Beekeeping:<br\/>Armenian beekeeping has deep-rooted traditions that date back centuries. Local beekeepers, often following family traditions, utilize sustainable and ethical practices to harvest honey. The use of traditional beehives, such as cylindrical clay hives known as \"karases,\" is still prevalent in some regions. This connection to heritage not only preserves the cultural significance of beekeeping but also contributes to the authenticity of Armenian honey.<\/p><p>Health Benefits:<br\/>Armenian honey is not just a culinary delight; it is also celebrated for its health benefits. Rich in antioxidants, vitamins, and minerals, Armenian honey is believed to have various medicinal properties. It is commonly used in traditional Armenian medicine to alleviate respiratory issues, boost the immune system, and promote overall well-being.<\/p><p>Cultural Significance:<br\/>Honey holds a special place in Armenian culture and traditions. It is often associated with hospitality and is a key element in various rituals and celebrations. Armenian families take pride in offering guests a taste of their local honey, symbolizing warmth, sweetness, and a connection to nature.<\/p><p>Preserving the Tradition:<br\/>While modern beekeeping practices are gradually making their way into Armenia, there is a concerted effort to balance innovation with the preservation of traditional methods. This ensures the continuation of sustainable beekeeping practices and the production of high-quality honey that captures the essence of Armenia's natural bounty.<\/p><p>Conclusion:<br\/>Armenian honey is not just a sweet treat; it is a journey through the diverse landscapes and rich cultural heritage of this ancient land. From the high-altitude meadows to the sun-kissed valleys, each jar of Armenian honey tells a story of tradition, sustainability, and the vibrant flavors of nature's bounty. Whether enjoyed on its own or incorporated into culinary delights, Armenian honey stands as a testament to the harmonious relationship between the people, the land, and the honeybee.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14785934622783__615d67bb-9e88-4095-9f06-b4fe09d6f67c-heading-1",
+        "template--14785934622783__615d67bb-9e88-4095-9f06-b4fe09d6f67c-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bww.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "accent-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -220,6 +258,7 @@
   "order": [
     "image_banner",
     "ec3e28e9-b869-4583-978f-a52514cd7d56",
+    "615d67bb-9e88-4095-9f06-b4fe09d6f67c",
     "featured_collection",
     "2c3e51f5-305b-4da0-9cac-02067840427b",
     "d652761b-304f-4204-a517-f4edb040667d"
