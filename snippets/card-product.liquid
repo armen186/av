@@ -140,12 +140,13 @@
         </div>
       </div>
       <div class="card__content">
-        <div class="card__information">
-        <form method="post" action="/cart/add">
+              <form method="post" action="/cart/add">
   <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
   <input min="1" type="number" id="quantity" name="quantity" value="1"/>
   <input type="submit" value="Add to cart" class="btn" />
 </form>
+        <div class="card__information">
+
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
