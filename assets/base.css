@@ -565,6 +565,9 @@ hr {
   text-decoration: none;
   color: currentColor;
   display: block;
+  font-size: 21px;
+  color:#2e28db;
+  font-weight: 700;
 }
 
 .placeholder {
@@ -1252,7 +1255,7 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color:#ffb70b;
+  background-color: #83829f;
 }
 
 .button:before,
@@ -3529,8 +3532,8 @@ details-disclosure > details {
   font-size: 18px;
   margin: 5px;
   transition: 0.3s ease;
-border-top: 3px solid #ffb70b;
-border-bottom: 3px solid #ffb70b;
+border-top: 3px solid #2e28db;;
+border-bottom: 3px solid #2e28db;;
 }
 
 #HeaderMenu-hi-honey{
@@ -3586,22 +3589,22 @@ border-bottom: 3px solid #ffb70b;
   .list-menu__item {
     font-size: 15px !important;
     margin: 2px ;
-    border-top: 1px solid #ffb70b;
-border-bottom: 1px solid #ffb70b;
+    border-top: 1px solid #2e28db;;
+border-bottom: 1px solid #2e28db;;
   }
   .multicolumn-card__info {
     margin-top: 0px !important;
   }
 }
 .list-menu__item:hover{
-  border-top: 1px solid #ffb70b;
-  border-bottom: 1px solid #ffb70b;
-  color: #ffb70b;
+  border-top: 1px solid #2e28db;;
+  border-bottom: 1px solid #2e28db;;
+  color:  #2e28db;
 }
 
 
 .multicolumn-card__info {
-  background:#ffb70b;
+  background:#2e28dbba;;
   box-shadow: 10px 18px 51px 10px rgba(0,0,0,0.41);
   margin-top: -55px;
   min-height: 250px;
@@ -3628,5 +3631,20 @@ border-bottom: 1px solid #ffb70b;
   font-family: "Inter", sans-serif;
 }
 
+.rte > p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
 
+body{
+  font-family: "Inter", sans-serif !important;
+}
 
+.price {
+  text-align: center;
+}
+.card_content {
+  text-align: center;
+  font-size: 50px !important;
+}
