@@ -78,8 +78,8 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
-        "image_width": "half",
+        "heading_size": "h2",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
@@ -90,7 +90,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "615d67bb-9e88-4095-9f06-b4fe09d6f67c": {
