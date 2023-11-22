@@ -140,11 +140,8 @@
         </div>
       </div>
       <div class="card__content">
-              <form method="post" action="/cart/add">
-  <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-  <input min="1" type="number" id="quantity" name="quantity" value="1"/>
-  <input type="submit" value="Add to cart" class="btn" />
-</form>
+               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+
         <div class="card__information">
 
           <h3
