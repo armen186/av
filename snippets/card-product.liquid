@@ -103,6 +103,16 @@
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
+          {% render 'card-product',
+                                      card_product: product,
+                                      media_aspect_ratio: block.settings.image_ratio,
+                                      show_secondary_image: false,
+                                      lazy_load: false,
+                                      show_quick_add: block.settings.enable_quick_add,
+                                      section_id: section.id,
+                                      horizontal_class: true,
+                                      horizontal_quick_add: true
+                                    %}
             <h3
               class="card__heading"
               {% if card_product.featured_media == null and settings.card_style == 'standard' %}
