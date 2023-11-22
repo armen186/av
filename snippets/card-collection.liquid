@@ -82,10 +82,8 @@
         </div>
       {%- else -%}
         <div class="card__content">
-<form method="post" action="/cart/add">
-    <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-    <input type="submit" value="{% if product.variants.first.available%}Buy now{% else %}Sold Out{% endif%}" class="btn" {% unless product.variants.first.available %}disabled{% endunless %} />
-  </form>           <div class="card__information">
+        
+        <div class="card__information">
           
             <h3 class="card__heading">
               <a
