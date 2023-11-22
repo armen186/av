@@ -3651,3 +3651,8 @@ body{
 .card__information {
   text-align: center;
 }
+.my_video_background_banner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
