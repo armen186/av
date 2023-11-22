@@ -3615,5 +3615,18 @@ border-bottom: 1px solid #ffb70b;
   border-radius: 10px;
 }
 
+.collection__title > h2 {
+  color: #fff !important;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  max-width: 100%;
+
+}
+.collection__title  p {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
 
 

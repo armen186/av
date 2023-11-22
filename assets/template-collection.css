@@ -69,6 +69,8 @@
 
 .collection__title.title-wrapper {
   margin-bottom: 2.5rem;
+  background-color: #2e28db;
+  max-width: 100%;
 }
 
 .collection__title .title:not(:only-child) {
