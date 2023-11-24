@@ -10,6 +10,13 @@
             "heading_size": "h1"
           }
         },
+        "8c9a0b13-cafd-44e8-adc5-57aee4b77b1b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -31,6 +38,7 @@
       },
       "block_order": [
         "heading",
+        "8c9a0b13-cafd-44e8-adc5-57aee4b77b1b",
         "button",
         "6d36f785-2e0e-4463-977c-4858effbedd0"
       ],
