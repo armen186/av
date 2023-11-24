@@ -3657,3 +3657,9 @@ body{
   height: 100%;
   overflow: hidden;
 }
+
+
+.banner {
+  height: 95vh; 
+  }
+  
