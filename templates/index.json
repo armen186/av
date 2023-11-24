@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Sweeten your life with the golden goodness of honey.<\/strong>",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "button": {
@@ -20,17 +20,25 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "6d36f785-2e0e-4463-977c-4858effbedd0": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>🌼 Pure Origin, Pure Excellence: Sourced from the untouched meadows and wildflower fields of Armenia, our honey is a symphony of diverse floral notes. The bees gather nectar from a myriad of blossoms, creating a honey with a unique and complex flavor profile.<\/strong><\/em>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "6d36f785-2e0e-4463-977c-4858effbedd0"
       ],
       "settings": {
         "my_video_background_banner": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f5a24b9d1f794a70886672d785b629e2.mp4",
         "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "bottom-center",
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-2",
