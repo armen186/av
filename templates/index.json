@@ -13,7 +13,21 @@
         "8c9a0b13-cafd-44e8-adc5-57aee4b77b1b": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "<em><strong>Golden Elixir: Sweetening Moments with Pure Honey Bliss<\/strong><\/em>",
+            "heading_size": "h1"
+          }
+        },
+        "10a8a4f6-7831-48bb-8dd0-265490189386": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nature's Nectar: Elevate Your Taste with Pure Honey Goodness",
+            "heading_size": "h1"
+          }
+        },
+        "11f1a8be-b58b-4b88-a394-53449b2c9f26": {
+          "type": "heading",
+          "settings": {
+            "heading": "Honey Harmony: Nature's Sweetest Gift for a Flavorful Life",
             "heading_size": "h1"
           }
         },
@@ -30,6 +44,7 @@
         },
         "6d36f785-2e0e-4463-977c-4858effbedd0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "🌼 <strong>Pure Origin, Pure Excellence:<\/strong> Sourced from the untouched meadows and wildflower fields of Armenia, our honey is a symphony of diverse floral notes. The bees gather nectar from a myriad of blossoms, creating a honey with a unique and complex flavor profile.                               🍯 <strong>Golden Elixir of Health:<\/strong> Known for its numerous health benefits, Armenian Honey is a natural source of antioxidants, enzymes, and minerals. It is renowned for its potential to boost the immune system, promote digestive health, and provide sustained energy.🌿 <strong>Sustainable Beekeeping:<\/strong> Our commitment to sustainability is reflected in our ethical beekeeping practices. We prioritize the well-being of our bees, ensuring that they thrive in their natural environment. By choosing our honey, you are supporting a harmonious relationship between humans and nature.🇦🇲 <strong>A Taste of Armenia:<\/strong> Immerse yourself in the cultural richness of Armenia with every spoonful. Whether drizzled over morning pancakes, stirred into tea, or enjoyed straight from the jar, our honey captures the essence of Armenian hospitality and warmth.🌍 <strong>Global Delight:<\/strong> We take pride in sharing the authentic taste of Armenia with the world. Wherever you are, experience the unparalleled quality of Armenian Honey, delivered to your doorstep with care.",
             "text_style": "body"
@@ -39,6 +54,8 @@
       "block_order": [
         "heading",
         "8c9a0b13-cafd-44e8-adc5-57aee4b77b1b",
+        "10a8a4f6-7831-48bb-8dd0-265490189386",
+        "11f1a8be-b58b-4b88-a394-53449b2c9f26",
         "button",
         "6d36f785-2e0e-4463-977c-4858effbedd0"
       ],
