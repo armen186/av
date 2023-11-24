@@ -44,8 +44,8 @@
         "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "ec3e28e9-b869-4583-978f-a52514cd7d56": {
