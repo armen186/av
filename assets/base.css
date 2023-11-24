@@ -3683,9 +3683,8 @@ body{
 -webkit-box-shadow: 1px 10px 35px -10px rgba(255,255,255,0.88);
 -moz-box-shadow: 1px 10px 35px -10px rgba(255,255,255,0.88);
 }
-@media screen and (min-width: 990px) {
+
   .header--top-left {
       grid-template-areas: "heading navigation icons" !important;
-      grid-template-columns: 1fr 2fr 1fr !important;
-  }
+      grid-template-columns: 2fr 10fr 1fr !important;
   }
