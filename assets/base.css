@@ -3688,3 +3688,8 @@ body{
       grid-template-areas: "heading navigation icons" !important;
       grid-template-columns: 2fr 10fr 1fr !important;
   }
+  .banner__buttons > a {
+    display: block;
+    background: #f0ffff00;
+    padding: 10px 100px 10px;
+  }
