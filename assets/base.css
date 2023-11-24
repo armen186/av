@@ -3587,6 +3587,9 @@ border-bottom: 3px solid #ff983e;;
   .header__icons {
     top: 0px;
   }
+  .banner__text{
+    display: none;
+  }
 }
 @media screen and (max-width: 1290px) {
   .list-menu__item {
