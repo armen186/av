@@ -6,28 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Sweeten your life with the golden goodness of honey.<\/strong>",
+            "heading": "<em><strong>Golden Elixir<\/strong><\/em>",
             "heading_size": "h1"
           }
         },
         "8c9a0b13-cafd-44e8-adc5-57aee4b77b1b": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Golden Elixir: Sweetening Moments with Pure Honey Bliss<\/strong><\/em>",
-            "heading_size": "h1"
-          }
-        },
-        "10a8a4f6-7831-48bb-8dd0-265490189386": {
-          "type": "heading",
-          "settings": {
-            "heading": "Nature's Nectar: Elevate Your Taste with Pure Honey Goodness",
-            "heading_size": "h1"
-          }
-        },
-        "11f1a8be-b58b-4b88-a394-53449b2c9f26": {
-          "type": "heading",
-          "settings": {
-            "heading": "Honey Harmony: Nature's Sweetest Gift for a Flavorful Life",
+            "heading": "<em> Sweetening Moments with Pure Honey Bliss<\/em>",
             "heading_size": "h1"
           }
         },
@@ -54,8 +40,6 @@
       "block_order": [
         "heading",
         "8c9a0b13-cafd-44e8-adc5-57aee4b77b1b",
-        "10a8a4f6-7831-48bb-8dd0-265490189386",
-        "11f1a8be-b58b-4b88-a394-53449b2c9f26",
         "button",
         "6d36f785-2e0e-4463-977c-4858effbedd0"
       ],
