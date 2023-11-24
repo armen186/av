@@ -3671,8 +3671,9 @@ body{
   height: 100vh; 
   }
   .shopify-section-header-sticky .header-wrapper {
-    background: #ff983e !important;
-}
+    background: #0309024a !important;
+    transition: all 3s ease-out;    }
+    
 
 
 .banner__box  p {
@@ -3692,4 +3693,12 @@ body{
     display: block;
     background: #f0ffff00;
     padding: 10px 100px 10px;
+  }
+  .banner__box > :first-child {
+    font-weight: 700;
+    font-size: 150px !important;
+  }
+  .banner__box > :nth-child(2) {
+    font-weight: 700;
+    font-size: 25px;
   }
