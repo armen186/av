@@ -93,6 +93,7 @@
         "template--14785934622783__ec3e28e9-b869-4583-978f-a52514cd7d56-column-2",
         "template--14785934622783__ec3e28e9-b869-4583-978f-a52514cd7d56-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
