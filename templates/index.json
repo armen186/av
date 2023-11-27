@@ -111,6 +111,34 @@
         "padding_bottom": 0
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Bee-lieve in the Sweetness of Armenian Honey!",
+        "heading_size": "h1",
+        "description": "<p>Discover the rich history and exquisite flavor of Armenian honey. Experience the distinct taste and health benefits.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
     "615d67bb-9e88-4095-9f06-b4fe09d6f67c": {
       "type": "image-with-text",
       "blocks": {
@@ -149,34 +177,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Bee-lieve in the Sweetness of Armenian Honey!",
-        "heading_size": "h1",
-        "description": "<p>Discover the rich history and exquisite flavor of Armenian honey. Experience the distinct taste and health benefits.<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "2c3e51f5-305b-4da0-9cac-02067840427b": {
       "type": "image-banner",
       "blocks": {
@@ -211,6 +211,7 @@
         "template--14785934622783__2c3e51f5-305b-4da0-9cac-02067840427b-text-1",
         "template--14785934622783__2c3e51f5-305b-4da0-9cac-02067840427b-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "my_video_background_banner": "",
         "image": "shopify:\/\/shop_images\/pine-honey-500gr.jpg",
@@ -257,6 +258,7 @@
         "template--14785934622783__d652761b-304f-4204-a517-f4edb040667d-text-1",
         "template--14785934622783__d652761b-304f-4204-a517-f4edb040667d-button-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -276,8 +278,8 @@
   "order": [
     "image_banner",
     "ec3e28e9-b869-4583-978f-a52514cd7d56",
-    "615d67bb-9e88-4095-9f06-b4fe09d6f67c",
     "featured_collection",
+    "615d67bb-9e88-4095-9f06-b4fe09d6f67c",
     "2c3e51f5-305b-4da0-9cac-02067840427b",
     "d652761b-304f-4204-a517-f4edb040667d"
   ]
