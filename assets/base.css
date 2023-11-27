@@ -1256,7 +1256,7 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: #ff983e;
+  background-color: #161539;
 }
 
 .button:before,
@@ -3717,11 +3717,9 @@ body{
       background: #f0ffff00;
       padding: 10px 50px 10px;
     }
-    #my_video_background_banner{
-      background:cover
-    }
+
   }
-  
+
 
 
   
