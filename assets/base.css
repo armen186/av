@@ -3702,7 +3702,6 @@ body{
     font-weight: 700;
     font-size: 25px;
   }
-  
 
   @media screen and (max-width: 780px) {
     .banner__box > :first-child {
