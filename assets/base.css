@@ -567,7 +567,8 @@ hr {
   color: currentColor;
   display: block;
   font-size: 21px;
-  color:#2e28db;
+  color:#fff;
+  font-style: italic;
   font-weight: 700;
 }
 
@@ -3721,8 +3722,9 @@ body{
   }
 
   .card__information {
-    background: gold;
+    background: #0000006e;;
   }
+
 
 
 
