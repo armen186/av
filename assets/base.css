@@ -3726,8 +3726,13 @@ body{
   max-height: 300px;
 }
 
+.image-with-text__text > ul > li{
+  color: #666;
+}
+.image-with-text__heading{
+  color: #666;
 
-
+}
   
   @media screen and (min-width: 1090px) {
 
