@@ -3725,22 +3725,10 @@ body{
 .card__inner {
   max-height: 300px;
 }
-.image-with-text__text{
-  color:#666;
-  font-weight: 600;
-}
-.image-with-text__heading{
-  color:#666;
-}
 
 
-.image-with-text__text > ul {
-  position: relative;
-}
-.image-with-text__text > ul > li {
-  margin-top: 30px;
-  display: block;
 
+<<<<<<< HEAD
   }
   @media screen and (min-width: 1090px) {
 
@@ -3750,6 +3738,8 @@ color:#b0f;
 }
   }
   
+=======
+>>>>>>> 2477ba068fd6753c862321e88b082a7ff26be9db
 
   
   
