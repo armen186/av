@@ -51,19 +51,10 @@
   endif
 -%}
 
-
 <div
   id="Banner-{{ section.id }}"
   class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
-{%- if section.settings.my_video_background_banner != blank -%}
-    <div class="my_video_background_banner">  
-      <video autoplay muted loop id="myVideoBackground">
-        <source src="{{ section.settings.my_video_background_banner }}" type="video/mp4">
-      </video>
-    </div>
-{%- endif -%}
-{%- if section.settings.my_video_background_banner == blank -%} 
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {%- liquid
@@ -91,14 +82,11 @@
           fetchpriority: fetch_priority
       }}
     </div>
-    
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
     </div>
   {%- endif -%}
-  
-{%- endif -%}
   {%- if section.settings.image_2 != blank -%}
     <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {%- liquid
@@ -132,7 +120,6 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
@@ -144,8 +131,6 @@
               <p>{{ block.settings.text }}</p>
             </div>
           {%- when 'buttons' -%}
-          
-
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
               {{ block.shopify_attributes }}
@@ -154,7 +139,7 @@
                 <a
                   {% if block.settings.button_link_1 == blank %}
                     role="link" aria-disabled="true"
-                  {% else %}  
+                  {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
                   class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
@@ -190,11 +175,6 @@
     "groups": ["header", "footer"]
   },
   "settings": [
-    {
-    "type": "url",
-    "id": "my_video_background_banner",
-    "label": "My Video Background Banner"
-},
     {
       "type": "image_picker",
       "id": "image",
@@ -314,7 +294,7 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "background-1"
+      "default": "scheme-1"
     },
     {
       "type": "header",
@@ -385,7 +365,7 @@
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
-      "limit": 4,
+      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
@@ -414,7 +394,6 @@
           "label": "t:sections.all.heading_size.label"
         }
       ]
-      
     },
     {
       "type": "text",

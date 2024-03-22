@@ -3,7 +3,6 @@
   height: 100%;
   position: relative;
   text-decoration: none;
-  background: gold;
 }
 
 .card {
@@ -70,7 +69,7 @@
 }
 
 /* Needed for gradient continuity with or without animation so that transparent PNG images come up as we would expect */
-.card__inner.color-background-1 {
+.card__inner.color-scheme-1 {
   background: transparent;
 }
 
@@ -81,7 +80,7 @@
 }
 
 /* Needed for gradient continuity with or without animation so that transparent PNG images come up as we would expect */
-.card__inner.color-background-1 {
+.card__inner.color-scheme-1 {
   background: transparent;
 }
 
@@ -314,7 +313,6 @@
 }
 
 .card--standard:not(.card--horizontal) .placeholder-svg {
-  height: auto;
   width: 100%;
 }
 
